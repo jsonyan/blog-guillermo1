@@ -1,21 +1,24 @@
-# React + TypeScript + Vite
+# Blog del Doctor Guillermo Choque Aspiazu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto está realizado con React y Vite
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## Estructura
 
-## Deploy Your Own
+La aplicación no se conecta con una base de datos, es solo un catalogo de todos los trabajos que
+realizó el doctor, tomando como base lo que se cargó anteriormente en su blog personal en Wordpress.
+Solo requiere una conexión con Google Drive para almacenar 192 MB de archivos estáticos, mismos que
+solo tendrán un vinculo desde la página web, y se facilitará un buscador.
 
-Deploy your own Vite project with Vercel.
+La arquitectura es simple:
+Cliente: React
+Servidor: No existe
+Conexion con otras herramientas: Vinculos a archivos de Google Drive
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+## Instalación
 
-_Live Example: https://vite-react-example.vercel.app_
-
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+Luego de clonar el proyecto, ejecutar los siguientes comandos para instalar las dependencias e ejecutar el programa.
 
 ```shell
-$ vercel
+$ npm install
+$ npm run dev
 ```
